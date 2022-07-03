@@ -1,0 +1,42 @@
+@import url("./link.css");
+@import url("./title.css");
+@import url("./input.css");
+
+:root {
+  --firstColor: #1ab187;
+  --secondColor: #435359;
+  --thirdColor: #ddfefe;
+  --fourthColor: #23323d;
+  --fifColor: #76868e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: var(--fifColor);
+}
+
+.form {
+  width: 500px;
+  height: 500px;
+  background-color: var(--fourthColor);
+
+  border-radius: 5px;
+  padding: 25px;
+}
